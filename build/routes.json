@@ -13223,6 +13223,57 @@
     "url": "cast.org.cn",
     "lang": "zh-CN"
   },
+  "catholic": {
+    "routes": {
+      "/blog": {
+        "path": "/blog",
+        "categories": [
+          "religious"
+        ],
+        "example": "/blog",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [],
+        "name": "Catholic Answers Blog",
+        "maintainers": [
+          "Allen"
+        ],
+        "location": "blog.ts"
+      },
+      "/magazine": {
+        "path": "/magazine",
+        "categories": [
+          "religious"
+        ],
+        "example": "/magazine",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [],
+        "name": "Catholic Answers Magazine",
+        "maintainers": [
+          "Allen"
+        ],
+        "location": "magazine.ts"
+      }
+    },
+    "name": "Catholic Answers",
+    "url": "www.catholic.com",
+    "lang": "en-US"
+  },
   "cau": {
     "routes": {
       "/ele": {
